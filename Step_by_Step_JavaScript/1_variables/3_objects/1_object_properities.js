@@ -19,18 +19,3 @@ console.log (JSON.stringify (student))
 
 
 
-// Nested Object
-let instructor = {
-  name:"Martine Ramirez",
-  age: 49,
-  address:{
-    postalCode:"M2N6B5",
-    city: "toronto",
-    country: "United States"
-  }
-}
-
-console.log (instructor)
-console.log (instructor.name)
-console.log (instructor.address.postalCode)
-
