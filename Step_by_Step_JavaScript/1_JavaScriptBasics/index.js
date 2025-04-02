@@ -15,3 +15,6 @@ console.log (typeof (myName))
 console.log (typeof (myAge))
 console.log (typeof (myAge))
 
+let myclass
+console.log (`myclass is: ${myclass}`)
+
