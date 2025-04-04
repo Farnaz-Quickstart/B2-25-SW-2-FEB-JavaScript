@@ -8,6 +8,12 @@
 
 let number1 = 12
 let number2 = 12.98765
+let a = 10
+
+let newValue = number2.toString (12.345)
+console.log (newValue)
+console.log (typeof(newValue))
+
 
 
 
