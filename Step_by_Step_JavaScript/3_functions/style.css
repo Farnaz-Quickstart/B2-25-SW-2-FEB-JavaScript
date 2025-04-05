@@ -1,0 +1,29 @@
+.body, html {
+  height:70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  width:200px;
+  margin-bottom: 2px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 3px;
+}
+
+.result {
+  color:brown;
+  font-size: xx-large;
+  margin-bottom:20px;
+}

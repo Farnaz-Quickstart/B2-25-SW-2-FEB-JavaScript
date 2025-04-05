@@ -6,11 +6,3 @@
   console.log (result)
   return result
  }) (1,2);
-
-
-
-
-
-
-
-
