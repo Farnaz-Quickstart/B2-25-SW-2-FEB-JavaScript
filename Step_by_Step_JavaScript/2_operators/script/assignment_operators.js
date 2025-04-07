@@ -9,8 +9,19 @@ result = number1 - number2  // Subtraction
 result = number1 * number2  // Multipication
 result = number1 / number2  // Division
 result = number1 % number2  // Modules or remainder of devision
-result = number1++
-result = number2++
+
+
+// number1 = number1 + 1
+// number1 +=1
+// number1 = number1 - 1
+// number1 -=1
+// number1 = number1 * 2
+// number1 *=2
+
+// You have a jar with 12 candies.
+// You say: “Let me write down how many candies are in the jar, then I’ll add one more candy.”
+result = number1++          // Post-Increment 
+
 
 function calculate () {
       const number1 = Number(document.getElementById("num1").value);
