@@ -2,6 +2,22 @@
 // A JavaScript function is executed when "something" invokes or call it
 // Reference: https://www.w3schools.com/js/js_functions.asp
 
+
+function greetingQuickstart () {
+  console.log ("Hi")
+  console.log ("Welcome to our class")
+  console.log ("My name is Roberto")
+}
+
+function greetingStudent (studentName) {
+  console.log (`Welcome to our class ${studentName}`)
+  console.log ("my name is Roberto")
+  console.log (`how old are you ${studentName}`)
+  console.log ("This is quickstart")
+  console.log (`${studentName} ! Your mentor is Usman`)
+}
+
+
 function greetingAll () {
   console.log ("Welcome to Our Class")
   document.getElementById ("result").textContent = "Welcome to Our Class"
@@ -23,4 +39,7 @@ function handleClick () {
   document.getElementById ("result").textContent = result
   return addition (number1, number2)
 }
+
+greetingStudent("tom")
+greetingStudent("Sebastian")
 
