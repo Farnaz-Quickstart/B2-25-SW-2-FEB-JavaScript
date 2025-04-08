@@ -9,23 +9,33 @@ Operator	       Meaning	              Example	             Result
 <	        Less than	                    3 < 2	               false
 >=	      Greater than or equal to	    5 >= 5	             true
 <=	      Less than or equal to	        4 <= 3	             false
-&&	      and	                          (x < 10 && y > 1)    true	
+&&	      and	                          (x < 10 && y > 1)    true	  
 ||	      or	                          (x == 5 || y == 5)   false	
 !	        not	                          !(x == y)            true
 */
 
-let age1 = 10;
+let age1 = 15;
 let age2  = 11; 
 let age3 = "10"
 
+
+
 // console.log (age1 == age2)      // check equal value
 // console.log (age1 == age3)      // check equal value
-// console.log (age1 === age3)     // check equal value and equal type
-// console.log (age1 != age2)      // not equal
-// console.log (age1 !== age3)     // check not equal value and equal type
-// console.log (age1 > age2)     // greater than
-// console.log (age1 >= age2)    // greater than or equal to
-// console.log (age1 < age2)     // less than
-// console.log (age1 <= age2)    // less than or equal to
+// console.log (age1 === age2)     // check equal value and equal type
+//console.log (age1 != age2)      // not equal
+//console.log (age1 !== age3)     // check not equal value and equal type
+console.log (age1 > age2)     // greater than
+console.log (age1 >= age2)    // greater than or equal to
+console.log (age1 < age2)     // less than
+console.log (age1 <= age2)    // less than or equal to
 
 
+
+if ((age1 > age2) && (age2 > age3)) {
+  console.log ("you are older")
+}
+
+if ((age1 > 10) || (age2 > 10)) {
+  console.log ("You need a .....")
+}

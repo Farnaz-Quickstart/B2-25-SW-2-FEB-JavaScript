@@ -1,4 +1,5 @@
-let studentAge  = 14
+let studentAge  = 10
+
 
 if (studentAge < 13) {
   // run this code if condition is true

@@ -1,5 +1,12 @@
 let studentAge  = 21
 
+if (condition) {}
+else if (condition) {}
+else if (condtion) {}
+else {}
+
+
+
 if (studentAge < 13) {
   // run this code if condition is true
   console.log ("You are a child") 
