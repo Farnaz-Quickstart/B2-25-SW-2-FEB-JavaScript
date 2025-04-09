@@ -3,14 +3,10 @@
 // for (initialization; condition ; condition) {}
 
 
-for (let index = 0 ; index < 10 ; index++) {
+for (let index = 0 ; index < 1 ; index++) {
   console.log ("Hello")
   console.log ("How are you?")
 }
-
-
-dayofTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'OneDay']
-
 
 
 
