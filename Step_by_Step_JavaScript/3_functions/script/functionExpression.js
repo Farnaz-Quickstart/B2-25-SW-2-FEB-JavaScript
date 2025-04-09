@@ -8,10 +8,3 @@ let greetingAll = function() {
 let greetingsOne = function (studentName) {
   console.log (`Welcome to Our Class: ${studentName}`)
 }
-
-let addition = function (num1, num2) {
-  return num1 + num2
-}
-
-
-
