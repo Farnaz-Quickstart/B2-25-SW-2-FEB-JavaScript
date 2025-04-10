@@ -1,8 +1,7 @@
 // Function: A block of code designed to perform a particular task.
-// A JavaScript function is executed when "something" invokes (calls) it.
+// A JavaScript function is executed when "something" invokes/calls it.
 // It can take parameters (optional, depending on the task).
 // Reference: https://www.w3schools.com/js/js_functions.asp
-
 
 
 function greetingQuickstart () {
