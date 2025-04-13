@@ -12,10 +12,3 @@ let daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 // Pop from array array.pop()
 // Search element in arrat: array.indexOf ("element")
 // Loop through elements of array
-
-
-
-
-
-
-

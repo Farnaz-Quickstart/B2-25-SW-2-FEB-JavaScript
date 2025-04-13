@@ -1,5 +1,7 @@
-// Object = A collection of key-value pairs, where the keys (also called properties) are strings
-//          and the values can be any data type, including other objects, arrays, functions, numbers and strings. 
+// JavaScript Objects
+// A collection of key-value pairs, where the keys (also called properties) are strings
+// and the values can be any data type, including other objects, arrays, functions, numbers and strings. 
+// Reference: https://www.w3schools.com/js/js_objects.asp
 
 let student = {
   name: "John",

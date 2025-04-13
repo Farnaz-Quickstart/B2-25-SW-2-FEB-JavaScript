@@ -1,7 +1,11 @@
-// For loop: Repeat some code a LIMITED amount of time
-// Reference: https://www.w3schools.com/js/js_loop_for.asp
-// for (initialization; condition ; condition) {}
-//     ( 1,             2,           3)
+/**
+ for loop: Repeat some code a LIMITED amount of time
+ Reference: https://www.w3schools.com/js/js_loop_for.asp
+
+ for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+ }
+**/
 
 console.log ("Hi")
 console.log ("Hi")

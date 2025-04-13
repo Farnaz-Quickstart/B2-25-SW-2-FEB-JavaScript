@@ -4,23 +4,11 @@
   2- Cannot start with a number.
   3- Case-sensitive (myVar and myvar are different).
   4- Cannot use reserved JavaScript keywords.
+  Reference Number Methods: https://www.w3schools.com/js/js_number_methods.asp
+  Numbers: tofixed(), toString(), Number.isNaN(), typeof()
 */
 
-let number1 = 12
-let number2 = 12.98765
-let a = 10
+let number1 = 12.95
 
-let newValue = number2.toString (12.345)
-console.log (newValue)
-console.log (typeof(newValue))
-
-
-
-
-// typeof
-// Number.isInteger
-// Number.toString
-// number2.toPrecision(5)
-// Math.toNumber
-
-
+console.log (number1.toFixed())
+console.log (number1.toString())

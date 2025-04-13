@@ -2,17 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JavaScript Script</title>
-  <script src="./summary.js"></script>
+  <title>Text Analyzer</title>
 </head>
-
 <body>
+  <h2>Simple Text Analyzer</h2>
+  <input type="text" id="userInput" placeholder="Type a sentence" />
+  <button onclick="analyzeText()">Analyze</button>
+
+  <div id="result" style="margin-top: 20px;"></div>
+
   <script>
-    
+    function analyzeText() {
+      const text = document.getElementById("userInput").value;
+      const wordArray = text.split(" ");
+      const wordCount = wordArray.length;
+      const charCount = text.length;
+      const upper = text.toUpperCase();
+      const reversedWords = wordArray.reverse().join(" ");
+
+      let resultHTML = `
+        <p><strong>Original Text:</strong> ${text}</p>
+        <p><strong>Uppercase:</strong> ${upper}</p>
+        <p><strong>Character Count:</strong> ${charCount}</p>
+        <p><strong>Word Count:</strong> ${wordCount}</p>
+        <p><strong>Reversed Words:</strong> ${reversedWords}</p>
+      `;
+
+      document.getElementById("result").innerHTML = resultHTML;
+    }
   </script>
-  <h1>Javascript DataTypes</h1>
-  <p><strong>Press F12 in Google Chrome</strong> to open the developer tools.</p>
-  <p>Navigate to the Console tab to view any JavaScript output or errors.</p>
 </body>
 </html>
